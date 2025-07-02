@@ -8,8 +8,8 @@ class APISettings(BaseSettings):
     docs_url          : str = "/docs"
     openapi_prefix    : str = ""
     openapi_url       : str = "/openapi.json"
-    title             : str = "Example_one"
-    description       : str = "Password generate"
+    title             : str = "Example_two"
+    description       : str = "Todo List"
     version           : str = "0.1.0"
     main_router_prefix: str = "/api"
 

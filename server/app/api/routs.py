@@ -3,7 +3,7 @@ from typing                        import List
 from fastapi                       import APIRouter
 from fastapi.params                import Depends
 
-from app.api.generate              import api as password
+from app.api.todo                  import api as todo
 
 
 def get_app_router() -> APIRouter:
@@ -22,8 +22,8 @@ def get_api_router() -> APIRouter:
 
     api_router       = APIRouter()
 
-    router_pass      = password.get_router()
+    router_pass      = todo.get_router()
 
-    api_router.include_router(router_pass, prefix="/pass", tags=["Генерация пароля"])
+    api_router.include_router(router_pass, prefix="/list", tags=["Список заданий"])
 
     return api_router
