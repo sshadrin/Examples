@@ -10,3 +10,8 @@
 
 1) Из директории Examples переключить ветку командой: git checkout example_one;
 2) после переключения, следовать указаниям файла Readme.md в ветке example_one.
+
+### Example two (сервис для управлением задачами)
+
+1) Из директории Examples переключить ветку командой: git checkout example_two;
+2) после переключения, следовать указаниям файла Readme.md в ветке example_two.
